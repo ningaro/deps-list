@@ -1,9 +1,9 @@
 {
-  "name": "deps-list",
+  "name": "pkg-urls-list",
   "version": "1.0.0",
   "description": "",
   "bin": {
-    "deps-list": "./src/bin/scan.js"
+    "pkg-urls-list": "src/bin/scan.js"
   },
   "type": "module",
   "author": "Ningaro",

@@ -56,7 +56,7 @@ function gettingDeps(packages, lockType = "npm") {
  * @returns {void}
  */
 function saveDepsToFile(depsList) {
-  const outputPath = path.resolve(cwd(), "deps-list.txt")
+  const outputPath = path.resolve(cwd(), "pkg-urls-list.txt")
   const content = depsList.join("\n")
 
   try {
